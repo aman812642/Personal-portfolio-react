@@ -4,6 +4,7 @@ import obys from '../assets/Obys_agency.jpg'
 import premier from '../assets/Premier.png'
 import refokus from '../assets/Refokus.png'
 import ecommerce from '../assets/Ecommerce.png'
+import rental from '../assets/Rentals.png'
 
 
 function Projects() {
@@ -19,6 +20,9 @@ function Projects() {
         ]},
         {images : premier, link : "https://primer-responsive.netlify.app/",projectName : "Premier Webpage"  , responsive : true ,  projectDescription : "This is a landing page of premier website i created it using html css only and also add autoprifix css code to it which helps to support this webpage in all browsers .." , techUsed : [
             "html" , "css" , "javascript"
+        ]},
+        {images : rental, link : "https://rentals-your.netlify.app", projectName : "Rent Your Property"  , responsive : true ,  projectDescription : "I created this website this is a clone of Airbnb I which we can see propterties which are avilable for rent and also add our property dynamically" , techUsed : [
+            "React js" , "css" , "Emailjs"
         ]}
     ]
   return (
